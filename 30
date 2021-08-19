@@ -1,0 +1,2 @@
+echo Password: 5b90576bedb2cc04c86a9e924ce42faf
+ssh -t bandit30@bandit.labs.overthewire.org -p2220 "mkdir /tmp/30/; cd /tmp/30/; git clone ssh://bandit30-git@localhost/home/bandit30-git/repo 2>/dev/null; cd repo; git show secret" 2>/dev/null

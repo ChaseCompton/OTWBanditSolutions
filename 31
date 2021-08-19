@@ -1,0 +1,2 @@
+echo Password: 47e603bb428404d265f59c42920d81e5
+ssh -t bandit31@bandit.labs.overthewire.org -p2220 "mkdir /tmp/31/; cd /tmp/31/; git clone ssh://bandit31-git@localhost/home/bandit31-git/repo 2>/dev/null; cd repo; echo 'May I come in?' >key.txt; git add key.txt -f; git commit -m "key"; git push origin master" 2>/dev/null 

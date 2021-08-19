@@ -1,0 +1,4 @@
+echo Password: uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+echo type v:e /etc/bandit_pass/bandit26
+printf '\e[8;5;85t' # requires session initiated window resizing
+ssh -t bandit25@bandit.labs.overthewire.org -p2220 "ssh -i bandit26.sshkey bandit26@localhost"

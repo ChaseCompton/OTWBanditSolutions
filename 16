@@ -1,0 +1,2 @@
+echo Password: cluFn7wTiGryunymYOu4RcffSxQluehd
+ssh bandit16@bandit.labs.overthewire.org -p2220 'for port in $(nmap localhost -p31000-32000 | grep 31 | cut -d '/' -f1); do echo "cluFn7wTiGryunymYOu4RcffSxQluehd" | openssl s_client -connect localhost:$port -quiet 2>/dev/null & done'

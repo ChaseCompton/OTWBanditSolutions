@@ -1,0 +1,2 @@
+echo Password: gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+ssh bandit21@bandit.labs.overthewire.org -p2220 'tail -n1 /usr/bin/*bandit22* | cut -d " " -f4 | xargs cat'

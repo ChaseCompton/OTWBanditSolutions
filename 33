@@ -1,0 +1,2 @@
+echo Password: c9c3199ddf4121b10cf581a98d51caee
+ssh bandit33@bandit.labs.overthewire.org -p2220 

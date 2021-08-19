@@ -1,0 +1,2 @@
+echo Password: UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+cat 24.py | ssh bandit24@bandit.labs.overthewire.org -p2220 'python3 -'

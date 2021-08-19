@@ -1,0 +1,2 @@
+echo Password: 17.key 
+ssh -i 17.key bandit17@bandit.labs.overthewire.org -p2220 diff passwords.old passwords.new | grep ">" | cut -d ' ' -f2 

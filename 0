@@ -1,0 +1,2 @@
+echo Password: bandit0
+ssh bandit0@bandit.labs.overthewire.org -p2220 cat "*"

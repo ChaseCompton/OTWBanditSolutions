@@ -1,0 +1,2 @@
+echo Password: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+ssh -t bandit13@bandit.labs.overthewire.org -p2220 ssh -i sshkey.private bandit14@localhost "cat /etc/bandit_pass/bandit14" 2>/dev/null 

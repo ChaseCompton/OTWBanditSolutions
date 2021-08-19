@@ -1,0 +1,2 @@
+echo Password: 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+ssh bandit14@bandit.labs.overthewire.org -p2220 "nc -l 30000 & echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" | nc localhost 30000"

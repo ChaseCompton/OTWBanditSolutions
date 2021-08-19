@@ -1,0 +1,2 @@
+echo Password: bbc96594b4e001778eee9975372716b2
+ssh -t bandit29@bandit.labs.overthewire.org -p2220 "mkdir /tmp/29/; cd /tmp/29/; git clone ssh://bandit29-git@localhost/home/bandit29-git/repo 2>/dev/null; cd repo; git checkout dev; git show | grep pass | cut -d$'\n' -f2 | cut -d ' ' -f3" 2>/dev/null

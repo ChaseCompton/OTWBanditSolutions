@@ -1,0 +1,2 @@
+echo Password: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+ssh bandit12@bandit.labs.overthewire.org -p2220 "xxd -r data.txt | zcat | bzcat | tar -zxO | tar -xO | bzcat | tar -xO | zcat | cut -d ' ' -f4"

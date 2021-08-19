@@ -1,0 +1,3 @@
+echo Password: 56a9bf19c63d650ce78e6ec0354ee45e
+echo "$0 then cat /etc/bandit_pass/bandit33"
+ssh bandit32@bandit.labs.overthewire.org -p2220  
