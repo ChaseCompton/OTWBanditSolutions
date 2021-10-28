@@ -1,7 +1,7 @@
 # OTWBanditSolutions
 Solutions to Over the Wire Wargames: Bandit
 ## What is this?
-These are my solution scripts to the OverTheWire Bandit CTF games
+These are my solution scripts to the [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) CTF games
 ## How do they work?
 These shell scripts are numbered by level
 
